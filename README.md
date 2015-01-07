@@ -55,7 +55,7 @@ global_title: Styleguide
 
 ```
 
-In this example the markdown file `src/styles/styleguide.md` is used for the content on the index page.
+In this example the markdown file `app/styles/styleguide.md` is used for the content on the index page.
 
 For more details on the options, checkout the [Hologram documentation](https://github.com/trulia/hologram/blob/master/README.md#creating-a-yaml-config-file)
 
