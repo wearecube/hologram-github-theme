@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title><%= title %> &ndash; <%= @config['global_title'] %></title>
+    <title><%= title %> <% if title != '' %>&ndash;<% end %> <%= @config['global_title'] %></title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="styles/hgt-syntax.css">
