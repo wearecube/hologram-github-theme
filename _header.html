@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title><%= title %> &ndash; <%= @config['global_title'] %></title>
+
+    <!-- Styleguide CSS -->
+    <link rel="stylesheet" href="theme-build/css/vendors.css">
+    <link rel="stylesheet" href="styles/hgt-syntax.css">
+    <link rel="stylesheet" href="styles/hgt.css">
+
+    <!-- Source CSS -->
+    <% if @config['css_include'].to_s.strip.length != 0 %>
+      <% @config['css_include'].each do |css| %>
+        <link rel="stylesheet" href="<%= css %>">
+      <% end %>
+    <% end %>
+
+    <!--[if lt IE 9]>
+      <script src="theme-build/polyfill/html5shiv.js"></script>
+      <script src="theme-build/polyfill/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+  <body class="hgt-body">
+    <div class="hgt-pagehead">
+      <div class="hgt-container">
+        <nav class="hgt-pagehead-nav" role="navigation">
+          <a href="index.html"
+             class="hgt-pagehead-nav-item <% if file_name.include?('index.html') %>selected<% end %>">
+            Home
+          </a>
+
+          <% @categories.each do |cat| %>
+          <a href="<%= cat[1] %>"
+             class="hgt-pagehead-nav-item <% if title == cat[0] %>selected<% end %>">
+            <%= cat[0] %>
+          </a>
+          <% end %>
+        </nav>
+
+        <h1 class="hgt-pagehead-title"><%= @config['global_title'] %></h1>
+      </div>
+    </div>
+
+    <div class="hgt-styleguide hgt-container">
+      <div class="hgt-columns">
+        <% unless @blocks.length == 0 %>
+          <div class="hgt-column one-fourth">
+            <nav class="hgt-menu">
+              <% @blocks.each do |block| %>
+                <% if not block[:parent] %>
+                  <a href="#<%= block[:name] %>" class="hgt-menu-item"><%= block[:title] %></a>
+                <% end %>
+              <% end %>
+            </nav>
+          </div>
+        <% end %>
+
+        <div class="hgt-column <% unless @blocks.length == 0 %>three-fourths<% end %>">
+          <div class="hgt-content">
