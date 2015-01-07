@@ -2,7 +2,7 @@
 
 This is a very simple [Github Styleguide](https://github.com/styleguide) inspired theme for Trulia's [Hologram](https://github.com/trulia/hologram), the ruby front-end doc generator.
 
-[See example](http://wearecube.github.io/hologram-github-theme-example/)
+[See example](http://wearecube.github.io/hologram-github-theme-example/styleguide)
 
 ## Usage
 
