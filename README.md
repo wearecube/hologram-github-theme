@@ -6,7 +6,7 @@ This is a very simple [Github Styleguide](https://github.com/styleguide) inspire
 
 ![Example](example.png?raw=true)
 
-[Example](http://wearecube.github.io/hologram-github-theme-example/styleguide)
+[Visit example styleguide](http://wearecube.github.io/hologram-github-theme-example/styleguide)
 
 ## Usage
 
@@ -71,4 +71,4 @@ The Hologram Github Theme has been created by [Mathis Hofer](https://github.com/
 
 ## License
 
-The Hologram Github Theme is licensed under the [MIT License](https://github.com/wearecube/hologram-github-theme/blob/master/LICENSE)
+The Hologram Github Theme is licensed under the [MIT License](LICENSE)
