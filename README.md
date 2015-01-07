@@ -4,7 +4,7 @@ This is a very simple [Github Styleguide](https://github.com/styleguide) inspire
 
 ## Preview
 
-![Example](http://wearecube.github.io/hologram-github-theme/example.png)
+![Example](example.png?raw=true)
 
 [Example](http://wearecube.github.io/hologram-github-theme-example/styleguide)
 
