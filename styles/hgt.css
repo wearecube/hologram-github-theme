@@ -27,6 +27,7 @@
 .hgt-body {
   font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
   color: #333;
+  background: #fff;
 }
 
 a {
@@ -89,8 +90,8 @@ a:hover {
 
 .hgt-pagehead-title {
   box-sizing: border-box;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 20px;
   font-weight: normal;
   line-height: 28px;
@@ -138,7 +139,7 @@ a:hover {
   position: relative;
   display: block;
   padding: 8px 10px;
-  text-shadow: 0px 1px 0px #FFF;
+  text-shadow: 0 1px 0 #FFF;
   border-bottom: 1px solid #EEE;
 }
 .hgt-menu-item:hover {
@@ -153,9 +154,9 @@ a:hover {
 }
 .hgt-menu-item.selected:before {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 2px;
   content: "";
   background-color: #D26911;
@@ -225,14 +226,14 @@ a:hover {
 .hgt-content table,
 .hgt-content pre {
   box-sizing: border-box;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 .hgt-content code,
 .hgt-content tt {
   box-sizing: border-box;
-  padding: 0.2em 0px;
-  margin: 0px;
+  padding: 0.2em 0;
+  margin: 0 3px 0 0;
   font-size: 13.6px; /* 85% of 16px */
   font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
   background-color: rgba(0, 0, 0, 0.04);
@@ -246,8 +247,8 @@ a:hover {
   content: " ";
 }
 .hgt-content pre {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
   font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
 .hgt-content .highlight pre,
@@ -263,7 +264,7 @@ a:hover {
   word-wrap: normal;
 }
 .hgt-content > :first-child {
-  margin-top: 0px !important;
+  margin-top: 0 !important;
 }
 
 .hgt-content .codeExample,
@@ -273,7 +274,7 @@ a:hover {
   margin: 10px 0;
 }
 .hgt-content .jsExample {
-  border-top: 0px;
+  border-top: 0;
 }
 .hgt-content .codeExample:before,
 .hgt-content .jsExample:before {
