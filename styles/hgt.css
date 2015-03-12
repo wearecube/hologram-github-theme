@@ -220,14 +220,23 @@
 }
 .hgt-content p,
 .hgt-content blockquote,
-.hgt-content ul,
-.hgt-content ol,
 .hgt-content dl,
 .hgt-content table,
 .hgt-content pre {
   box-sizing: border-box;
-  margin-top: 0;
-  margin-bottom: 16px;
+  margin: 0 0 16px;
+}
+.hgt-content ul {
+  list-style: disc;
+  box-sizing: border-box;
+  margin: 0 0 16px;
+  padding-left: 1em;
+}
+.hgt-content ol {
+  list-style: decimal;
+  box-sizing: border-box;
+  margin: 0 0 16px;
+  padding-left: 1em;
 }
 .hgt-content code,
 .hgt-content tt {
