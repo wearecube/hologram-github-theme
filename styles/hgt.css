@@ -30,14 +30,14 @@
   background: #fff;
 }
 
-a {
+.hgt-pagehead-nav a, .hgt-content a, .hgt-footer a {
   color: #4183C4;
   text-decoration: none;
 }
-a:hover {
+
+.hgt-content a:hover, .hgt-footer a:hover {
   text-decoration: underline;
 }
-
 
 .hgt-container {
   box-sizing: border-box;
