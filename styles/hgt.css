@@ -51,11 +51,13 @@
   margin-right: -10px;
   margin-left: -10px;
 }
+
 .hgt-columns:after {
     display: table;
     clear: both;
     content: "";
 }
+
 .hgt-columns:before {
     display: table;
     content: "";
@@ -77,7 +79,6 @@
 .hgt-column.three-fourths {
   width: 75%;
 }
-
 
 .hgt-pagehead {
   box-sizing: border-box;
@@ -112,18 +113,20 @@
   font-size: 14px;
   color: #777;
 }
+
 .hgt-pagehead-nav-item {
   text-decoration: none;
 }
+
 .hgt-pagehead-nav-item:hover {
   color: #333;
   text-decoration: none;
 }
+
 .hgt-pagehead-nav-item.selected {
   color: #333;
   border-bottom: 2px solid #D26911;
 }
-
 
 .hgt-menu {
   display: block;
@@ -142,16 +145,19 @@
   text-shadow: 0 1px 0 #FFF;
   border-bottom: 1px solid #EEE;
 }
+
 .hgt-menu-item:hover {
   text-decoration: none;
   background-color: #F9F9F9;
 }
+
 .hgt-menu-item.selected {
   font-weight: bold;
   color: #222;
   cursor: default;
   background-color: #FFF;
 }
+
 .hgt-menu-item.selected:before {
   position: absolute;
   top: 0;
@@ -161,17 +167,19 @@
   content: "";
   background-color: #D26911;
 }
+
 .hgt-menu-item:first-child:before {
   border-top-left-radius: 2px;
 }
+
 .hgt-sticky {
   position: fixed;
 }
+
 .hgt-menu.hgt-sticky {
   top: 5px;
   width: 228px;
 }
-
 
 .hgt-content {
   font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
@@ -179,6 +187,7 @@
   line-height: 1.6;
   word-wrap: break-word;
 }
+
 .hgt-content h1,
 .hgt-content h2,
 .hgt-content h3,
@@ -192,32 +201,39 @@
   font-weight: bold;
   line-height: 1.4;
 }
+
 .hgt-content h1 {
   padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2;
   border-bottom: 1px solid #EEE;
 }
+
 .hgt-content h2 {
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
   border-bottom: 1px solid #EEE;
 }
+
 .hgt-content h3 {
   font-size: 1.5em;
   line-height: 1.43;
 }
+
 .hgt-content h4 {
   font-size: 1.25em;
 }
+
 .hgt-content h5 {
   font-size: 1em;
 }
+
 .hgt-content h6 {
   font-size: 1em;
   color: #777;
 }
+
 .hgt-content p,
 .hgt-content blockquote,
 .hgt-content dl,
@@ -226,18 +242,21 @@
   box-sizing: border-box;
   margin: 0 0 16px;
 }
+
 .hgt-content ul {
   list-style: disc;
   box-sizing: border-box;
   margin: 0 0 16px;
   padding-left: 1em;
 }
+
 .hgt-content ol {
   list-style: decimal;
   box-sizing: border-box;
   margin: 0 0 16px;
   padding-left: 1em;
 }
+
 .hgt-content code,
 .hgt-content tt {
   box-sizing: border-box;
@@ -248,6 +267,7 @@
   background-color: rgba(0, 0, 0, 0.04);
   border-radius: 3px;
 }
+
 .hgt-content code:before,
 .hgt-content code:after,
 .hgt-content tt:before,
@@ -255,11 +275,13 @@
   letter-spacing: -0.2em;
   content: " ";
 }
+
 .hgt-content pre {
   margin-top: 0;
   margin-bottom: 0;
   font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
+
 .hgt-content .highlight pre,
 .hgt-content pre {
   padding: 16px;
@@ -269,9 +291,11 @@
   background-color: #F7F7F7;
   border-radius: 3px;
 }
+
 .hgt-content pre {
   word-wrap: normal;
 }
+
 .hgt-content > :first-child {
   margin-top: 0 !important;
 }
@@ -282,9 +306,11 @@
   border-radius: 4px;
   margin: 10px 0;
 }
+
 .hgt-content .jsExample {
   border-top: 0;
 }
+
 .hgt-content .codeExample:before,
 .hgt-content .jsExample:before {
   font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
@@ -297,6 +323,7 @@
   padding: 2px;
   display: block;
 }
+
 /* .hgt-content .codeExample:before { */
 /*   content: "Example"; */
 /*   background-color: #f9f9f9; */
@@ -313,20 +340,22 @@
 /*   left: -11px; */
 /*   font-size: 12px; */
 /* } */
+
 .hgt-content .exampleOutput {
   padding: 16px;
 }
+
 .hgt-content .codeBlock {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-top: 1px solid #EEE;
 }
+
 .hgt-content table .codeBlock {
   background-color: transparent;
   border-top: none;
   border-radius: 0;
 }
-
 
 .hgt-footer {
   box-sizing: border-box;
@@ -339,11 +368,13 @@
   color: #777;
   border-top: 1px solid #EEE;
 }
+
 .hgt-footer:after {
     display: table;
     clear: both;
     content: "";
 }
+
 .hgt-footer:before {
     display: table;
     content: "";
