@@ -29,12 +29,15 @@
 
   $(document).ready(function () {
     // Menu should be always visible when scrolling
-    new Waypoint.Sticky({
-      element: $('.hgt-menu')[0],
-      stuckClass: 'hgt-sticky',
-      wrapper: '<div class="hgt-sticky-menu-wrapper" />',
-      offset: 5
-    });
+    var $hgtMenu = $('.hgt-menu');
+    if ($hgtMenu.length){
+      new Waypoint.Sticky({
+        element: $hgtMenu[0],
+        stuckClass: 'hgt-sticky',
+        wrapper: '<div class="hgt-sticky-menu-wrapper" />',
+        offset: 5
+      });
+    }
 
     function selectMenuItem(hash) {
       $('.hgt-menu-item').removeClass('selected');
