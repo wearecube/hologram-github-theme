@@ -67,7 +67,7 @@ hologram -c hologram_config.yml
 
 ## Authors
 
-The Hologram Github Theme has been created by [Mathis Hofer](https://github.com/hupf). A big thank you goes to [Maurice Kühlborn](https://github.com/minimalweb) for his contributions.
+The Hologram Github Theme has been created by [Mathis Hofer](https://github.com/hupf). Many thanks to [Maurice Kühlborn](https://github.com/minimalweb) and [Oscar](https://github.com/obartra) for their contributions.
 
 ## License
 
