@@ -30,12 +30,12 @@
   background: #fff;
 }
 
-.hgt-pagehead-nav a, .hgt-content a, .hgt-footer a {
+.hgt-pagehead-nav a, .hgt-content a.styleguide, .hgt-footer a {
   color: #4183C4;
   text-decoration: none;
 }
 
-.hgt-content a:hover, .hgt-footer a:hover {
+.hgt-content a.styleguide:hover, .hgt-footer a:hover {
   text-decoration: underline;
 }
 
@@ -142,8 +142,10 @@
   position: relative;
   display: block;
   padding: 8px 10px;
+  color: #4078C0;
   text-shadow: 0 1px 0 #FFF;
   border-bottom: 1px solid #EEE;
+  text-decoration: none;
 }
 
 .hgt-menu-item:hover {
@@ -181,19 +183,19 @@
   width: 228px;
 }
 
-.hgt-content {
+.hgt-content .styleguide {
   font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
   font-size: 16px;
   line-height: 1.6;
   word-wrap: break-word;
 }
 
-.hgt-content h1,
-.hgt-content h2,
-.hgt-content h3,
-.hgt-content h4,
-.hgt-content h5,
-.hgt-content h6 {
+.hgt-content h1.styleguide,
+.hgt-content h2.styleguide,
+.hgt-content h3.styleguide,
+.hgt-content h4.styleguide,
+.hgt-content h5.styleguide,
+.hgt-content h6.styleguide {
   box-sizing: border-box;
   position: relative;
   margin-top: 1em;
@@ -202,63 +204,63 @@
   line-height: 1.4;
 }
 
-.hgt-content h1 {
+.hgt-content h1.styleguide {
   padding-bottom: 0.3em;
   font-size: 2.25em;
   line-height: 1.2;
   border-bottom: 1px solid #EEE;
 }
 
-.hgt-content h2 {
+.hgt-content h2.styleguide {
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
   border-bottom: 1px solid #EEE;
 }
 
-.hgt-content h3 {
+.hgt-content h3.styleguide {
   font-size: 1.5em;
   line-height: 1.43;
 }
 
-.hgt-content h4 {
+.hgt-content h4.styleguide {
   font-size: 1.25em;
 }
 
-.hgt-content h5 {
+.hgt-content h5.styleguide {
   font-size: 1em;
 }
 
-.hgt-content h6 {
+.hgt-content h6.styleguide {
   font-size: 1em;
   color: #777;
 }
 
-.hgt-content p,
-.hgt-content blockquote,
-.hgt-content dl,
-.hgt-content table,
-.hgt-content pre {
+.hgt-content p.styleguide,
+.hgt-content blockquote.styleguide,
+.hgt-content dl.styleguide,
+.hgt-content table.styleguide,
+.hgt-content pre.styleguide {
   box-sizing: border-box;
   margin: 0 0 16px;
 }
 
-.hgt-content ul {
+.hgt-content ul.styleguide {
   list-style: disc;
   box-sizing: border-box;
   margin: 0 0 16px;
   padding-left: 1em;
 }
 
-.hgt-content ol {
+.hgt-content ol.styleguide {
   list-style: decimal;
   box-sizing: border-box;
   margin: 0 0 16px;
   padding-left: 1em;
 }
 
-.hgt-content code,
-.hgt-content tt {
+.hgt-content code.styleguide,
+.hgt-content tt.styleguide {
   box-sizing: border-box;
   padding: 0.2em 0;
   margin: 0 3px 0 0;
@@ -268,22 +270,22 @@
   border-radius: 3px;
 }
 
-.hgt-content code:before,
-.hgt-content code:after,
-.hgt-content tt:before,
-.hgt-content tt:after {
+.hgt-content code.styleguide:before,
+.hgt-content code.styleguide:after,
+.hgt-content tt.styleguide:before,
+.hgt-content tt.styleguide:after {
   letter-spacing: -0.2em;
   content: " ";
 }
 
-.hgt-content pre {
+.hgt-content .codeBlock pre {
   margin-top: 0;
   margin-bottom: 0;
   font: 12px Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
 
-.hgt-content .highlight pre,
-.hgt-content pre {
+.hgt-content .codeBlock .highlight pre,
+.hgt-content .codeBlock pre {
   padding: 16px;
   overflow: auto;
   font-size: 13.6px; /* 85% of 16px */
@@ -292,7 +294,7 @@
   border-radius: 3px;
 }
 
-.hgt-content pre {
+.hgt-content .codeBlock  pre {
   word-wrap: normal;
 }
 
