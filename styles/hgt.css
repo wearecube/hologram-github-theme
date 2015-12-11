@@ -25,17 +25,40 @@
  */
 
 .hgt-body {
-  font: 13px/1.4 Helvetica,arial,freesans,clean,sans-serif;
-  color: #333;
   background: #fff;
 }
 
-.hgt-pagehead-nav a, .hgt-content a.styleguide, .hgt-footer a {
+.hgt-pagehead,
+.hgt-menu,
+.hgt-content .styleguide,
+.hgt-footer {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.hgt-pagehead,
+.hgt-menu,
+.hgt-content .styleguide,
+.hgt-content > h1,
+.hgt-content > h2,
+.hgt-content > h3,
+.hgt-content > h4,
+.hgt-content > h5,
+.hgt-content > h6,
+.hgt-footer {
+  font-family: Helvetica,arial,freesans,clean,sans-serif;
+  color: #333;
+}
+
+.hgt-pagehead-nav a,
+.hgt-content .styleguide a,
+.hgt-footer a {
   color: #4183C4;
   text-decoration: none;
 }
 
-.hgt-content a.styleguide:hover, .hgt-footer a:hover {
+.hgt-content .styleguide a:hover,
+.hgt-footer a:hover {
   text-decoration: underline;
 }
 
@@ -195,7 +218,13 @@
 .hgt-content h3.styleguide,
 .hgt-content h4.styleguide,
 .hgt-content h5.styleguide,
-.hgt-content h6.styleguide {
+.hgt-content h6.styleguide,
+.hgt-content > h1,
+.hgt-content > h2,
+.hgt-content > h3,
+.hgt-content > h4,
+.hgt-content > h5,
+.hgt-content > h6 {
   box-sizing: border-box;
   position: relative;
   margin-top: 1em;
