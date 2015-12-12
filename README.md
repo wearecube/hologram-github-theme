@@ -16,7 +16,13 @@ Install Hologram:
 $ gem install hologram
 ```
 
-Add this theme to your project using Bower:
+Add this theme to your project using NPM:
+
+```
+$ npm install install --save-dev hologram-github-theme
+```
+
+Alternatively you may use Bower:
 
 ```
 $ bower install --save-dev hologram-github-theme
@@ -32,7 +38,7 @@ source: app/styles
 destination: styleguide
 
 # The path that contains supporting assets for the documentation page
-documentation_assets: bower_components/hologram-github-theme
+documentation_assets: node_modules/hologram-github-theme
 
 # Category that will be used as the index.html (optional)
 index: styleguide
@@ -55,7 +61,7 @@ global_title: Styleguide
 
 ```
 
-In this example the markdown file `app/styles/styleguide.md` is used for the content on the index page.
+In this example the markdown file `app/styles/styleguide.md` is used for the content on the index page. Also, if you're using Bower, adjust the package path accordingly ```documentation_assets: bower_components/hologram-github-theme```.
 
 For more details on the options, checkout the [Hologram documentation](https://github.com/trulia/hologram/blob/master/README.md#creating-a-yaml-config-file)
 
