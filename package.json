@@ -1,0 +1,23 @@
+{
+  "name": "hologram-github-theme",
+  "version": "0.1.3",
+  "description": "A Github Styleguide inspired theme for Hologram",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wearecube/hologram-github-theme.git"
+  },
+  "keywords": [
+    "hologram",
+    "styleguide",
+    "theme"
+  ],
+  "author": "Mathis Hofer <hofer@puzzle.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wearecube/hologram-github-theme/issues"
+  },
+  "homepage": "https://github.com/wearecube/hologram-github-theme#readme"
+}
