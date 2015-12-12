@@ -4,9 +4,9 @@ This is a very simple [Github Styleguide](https://github.com/styleguide) inspire
 
 ## Preview
 
-![Example](example.png?raw=true)
+<img src="https://raw.githubusercontent.com/wearecube/hologram-github-theme-example/gh-pages/styleguide-screenshot.png" style="width:50%;-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);">
 
-[Visit example styleguide](http://wearecube.github.io/hologram-github-theme-example/styleguide)
+[View example styleguide](http://wearecube.github.io/hologram-github-theme-example/styleguide) ([source code](https://github.com/wearecube/hologram-github-theme-example))
 
 ## Usage
 
