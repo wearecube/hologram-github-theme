@@ -6,8 +6,8 @@
     <title><%= title %> <% if title != '' %>&ndash;<% end %> <%= @config['global_title'] %></title>
 
     <!-- Styleguide CSS -->
-    <link rel="stylesheet" href="styles/hgt-syntax.css">
-    <link rel="stylesheet" href="styles/hgt.css">
+    <link rel="stylesheet" href="<%= @config['theme_path_prefix'] %>/styles/hgt-syntax.css">
+    <link rel="stylesheet" href="<%= @config['theme_path_prefix'] %>/styles/hgt.css">
 
     <!-- Source CSS -->
     <% if @config['css_include'].to_s.strip.length != 0 %>
