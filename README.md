@@ -59,6 +59,9 @@ js_include:
 # The global title that is displayed at the top of the pages
 global_title: Styleguide
 
+# The prefix path for theme's assets
+theme_path_prefix: 'styleguides'
+
 ```
 
 In this example the markdown file `app/styles/styleguide.md` is used for the content on the index page. Also, if you're using Bower, adjust the package path accordingly: ```documentation_assets: bower_components/hologram-github-theme```.

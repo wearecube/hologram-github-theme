@@ -8,10 +8,10 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="scripts/vendor/jquery.waypoints.min.js"></script>
-  <script src="scripts/vendor/sticky.min.js"></script>
-  <script src="scripts/vendor/infinite.min.js"></script>
-  <script src="scripts/hgt.js"></script>
+  <script src="<%= @config['theme_path_prefix'] %>/scripts/vendor/jquery.waypoints.min.js"></script>
+  <script src="<%= @config['theme_path_prefix'] %>/scripts/vendor/sticky.min.js"></script>
+  <script src="<%= @config['theme_path_prefix'] %>/scripts/vendor/infinite.min.js"></script>
+  <script src="<%= @config['theme_path_prefix'] %>/scripts/hgt.js"></script>
 
   <% if @config['js_include'].to_s.strip.length != 0 %>
     <% @config['js_include'].each do |js| %>
